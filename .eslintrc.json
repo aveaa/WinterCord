@@ -18,6 +18,7 @@
     "no-bitwise": "off",
     "import/no-unresolved": "off",
     "class-methods-use-this": "off",
-    "no-prototype-builtins": "off"
+    "no-prototype-builtins": "off",
+    "no-underscore-dangle": "off"
   }
 }

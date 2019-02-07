@@ -38,9 +38,11 @@
 * Checking for all needed environment variables.
 * */
 ['MainToken', 'HelperToken'].forEach(env => {
-  if (!(env in process.env)) throw `You need to provide an "${env}" environment variable.`;
-})
+  if (!(env in process.env)) throw Error(`You need to provide an "${env}" environment variable.`);
+});
 
 global.console.chalk = require('chalk');
+global.Discord = require('discord.js');
+
 console.log(console.chalk`{bold.greenBright Bot process started.}\nInitializing main class...`);
 global.Bot = new (require('./Bot'))();
