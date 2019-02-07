@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "Discord": true,
+    "Bot": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "global-require": "off",
+    "no-console": "off",
+    "no-new": "off",
+    "no-continue": "off",
+    "no-restricted-syntax": "off",
+    "consistent-return": "off",
+    "max-len": ["error", {"comments": 2000, "code":  500, "ignoreUrls":  true}],
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-bitwise": "off",
+    "import/no-unresolved": "off",
+    "class-methods-use-this": "off",
+    "no-prototype-builtins": "off"
+  }
+}

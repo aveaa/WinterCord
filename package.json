@@ -1,0 +1,20 @@
+{
+  "name": "wintercord",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zziger",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
