@@ -1,8 +1,12 @@
 {
   "extends": "airbnb-base",
   "globals": {
-    "Discord": true,
-    "Bot": true
+    "Commando": true,
+    "Client": true,
+    "tags": true,
+    "DB": true,
+    "User": true,
+    "Item": true
   },
   "rules": {
     "import/no-extraneous-dependencies": "off",
@@ -18,6 +22,7 @@
     "no-bitwise": "off",
     "import/no-unresolved": "off",
     "class-methods-use-this": "off",
-    "no-prototype-builtins": "off"
+    "no-prototype-builtins": "off",
+    "no-shadow": "off"
   }
 }

@@ -10,7 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
-    "discord.js": "^11.4.2"
+    "commando-provider-mongo": "^1.1.1",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "get-image-colors": "^2.0.0",
+    "mongodb": "^3.1.13",
+    "request": "^2.88.0",
+    "common-tags": "latest"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
